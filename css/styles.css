@@ -201,6 +201,10 @@ header ul.navbar-nav {
           box-shadow: 10px 10px #051b2fdb;
 }
 
+.recomendados .container.row {
+  padding: 0;
+}
+
 .recomendados__imagen {
   width: 150px;
   height: 150px;
@@ -236,14 +240,6 @@ header ul.navbar-nav {
   }
 }
 
-/* .recomendados__box{
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: center;    
-} */
 .recomendados__item {
   padding: 0;
 }
@@ -269,21 +265,8 @@ header ul.navbar-nav {
   .componentes {
     height: 350px;
   }
-  /* .recomendados .row{
-        display: grid;
-        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-        grid-template-rows: 1fr, 1fr, 1fr;
-    } */
 }
 
-/* .main__div{
-        &.componentes{
-            width: 90%;
-        }
-        &.recomendados{
-            width: 90%;
-        }
-    } */
 nav img {
   width: 150px;
 }
