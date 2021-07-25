@@ -8,7 +8,7 @@
 	form {
 		width: 40%;
 		fieldset {
-			background-color: #BBE1FAC4;
+			background-color: $colorClaro;
 			border: 2px solid #1b262c;
 			border-radius: 7px;
 			height: max-content;
@@ -29,7 +29,7 @@ form {
 		font-weight: bold;
 	}
 	fieldset {
-		background-color: #BBE1FAC4;
+		background-color: $colorClaro;
 		border: 2px solid #1b262c;
 		border-radius: 7px;
 		padding: 10px;
@@ -37,7 +37,7 @@ form {
 	}
 	legend {
 		background-color: #1b262c;
-		color: #BBE1FAC4;
+		color: $colorClaro;
 		border: 2px solid #1b262c;
 		border-radius: 7px;
 		padding: 5px;

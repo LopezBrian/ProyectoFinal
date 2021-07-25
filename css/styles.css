@@ -505,6 +505,11 @@ form label {
   }
 }
 
+.ayuda ul li {
+  padding: 5px 15px;
+  margin: 10px;
+}
+
 footer {
   height: 100px;
   display: -ms-grid;
