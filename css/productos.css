@@ -1,0 +1,116 @@
+.productos__item {
+  font-size: 13px;
+  margin: 10px;
+  -webkit-box-shadow: 10px 10px #051b2fdb;
+          box-shadow: 10px 10px #051b2fdb;
+  border: 4px solid #1b262c;
+  background-color: #BBE1FAC4;
+  font-size: 15px;
+  width: 400px;
+}
+
+.productos__imagen {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #1b262c;
+}
+
+.productos__lista {
+  margin: 30px 40px;
+}
+
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  /* article {
+		width: 600px;
+	} */
+}
+
+.productos__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 230px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.productos__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: -45px;
+}
+
+.boton__compra {
+  width: 160px;
+  height: 39px;
+  background: #1B262C;
+  color: #BBE1FA;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#imagen__carrito {
+  width: 30px;
+}
+
+.productos__comprar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 115px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.productos__comprar span {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .productos__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=productos.css.map */
