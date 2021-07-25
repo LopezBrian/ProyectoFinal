@@ -40,8 +40,22 @@ body a {
   border: 2px solid #1b262c;
 }
 
+#arrow img {
+  width: 55px;
+  position: fixed;
+  top: 590px;
+  right: 20px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
 header nav {
-  background-color: #0B2845;
+  background-color: #0B2845EB;
 }
 
 header nav .container-fluid {
