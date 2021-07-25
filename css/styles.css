@@ -216,6 +216,9 @@ header ul.navbar-nav {
   border: 2px solid #1b262c;
 }
 
+/* .productos__lista {
+	margin: 30px 40px;
+} */
 .productos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -230,7 +233,10 @@ header ul.navbar-nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
+  /* article {
+		width: 600px;
+	} */
 }
 
 .productos__top {
@@ -248,6 +254,8 @@ header ul.navbar-nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
+  /* 
+	margin-top: 15px; */
 }
 
 .productos__bottom {
@@ -322,6 +330,7 @@ header ul.navbar-nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /* width: 710px; */
   margin: 50px auto;
   text-align: center;
 }
@@ -378,6 +387,121 @@ header ul.navbar-nav {
 @media screen and (max-width: 576px) {
   .marcas__logos {
     height: 800px;
+  }
+}
+
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.contacto form {
+  width: 40%;
+}
+
+.contacto form fieldset {
+  background-color: #BBE1FAC4;
+  border: 2px solid #1b262c;
+  border-radius: 7px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: 10px 10px #051b2fdb;
+          box-shadow: 10px 10px #051b2fdb;
+}
+
+.contacto form label {
+  display: inline-block;
+}
+
+.contacto__titulo {
+  width: 35%;
+}
+
+form * {
+  color: #1b262c;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+form fieldset {
+  background-color: #BBE1FAC4;
+  border: 2px solid #1b262c;
+  border-radius: 7px;
+  padding: 10px;
+  -webkit-box-shadow: 10px 10px #051b2fdb;
+          box-shadow: 10px 10px #051b2fdb;
+}
+
+form legend {
+  background-color: #1b262c;
+  color: #BBE1FAC4;
+  border: 2px solid #1b262c;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+form label {
+  display: block;
+  text-align: center;
+  margin: 5px;
+}
+
+.contacto__opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 140px;
+}
+
+.contacto__botones {
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .contacto form {
+    width: 90%;
+  }
+  .contacto form textarea {
+    margin-bottom: 45px;
+  }
+  .contacto form div {
+    display: contents;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacto form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contacto form {
+    width: 90%;
   }
 }
 
