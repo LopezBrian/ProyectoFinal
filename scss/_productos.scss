@@ -1,11 +1,11 @@
 .productos__item {
-	font-size: 13px;
+	font-size: 1rem;
 	margin: 10px;
 	padding: 15px;
 	box-shadow: 10px 10px #051b2fdb;
 	border: 4px solid #1b262c;
-	background-color: #BBE1FAC4;
-	font-size: 15px;
+	background-color: $colorClaro;
+	font-size: 1rem;
 }
 .productos__imagen {
 	width: 150px;
@@ -46,8 +46,8 @@
 	width: 160px;
 	height: 39px;
 	background: #1B262C;
-	color: #BBE1FA;
-	font-size: 18px;
+	color: $colorClaro;
+	font-size: 1rem;
 	cursor: pointer;
 	font-weight: bold;
 }
@@ -58,10 +58,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 115px;
+	height: 140px;
 	justify-content: space-around;
 	span {
-		font-size: 30px;
+		font-size: 2rem;
 	}
 }
 

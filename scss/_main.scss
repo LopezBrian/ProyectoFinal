@@ -7,14 +7,14 @@
             }
         }
         h3{
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: bold;
         }
     }
 }
 
 .recomendados, .componentes{
-    background-color: #BBE1FAC4;
+    background-color: $colorClaro;
     border: 4px solid #1b262c;
     box-shadow: 10px 10px #051b2fdb;    
 }
@@ -52,7 +52,7 @@
 .recomendados__item h3{
     font-weight: bold;
     margin: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
 }
 
