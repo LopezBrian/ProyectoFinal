@@ -68,3 +68,15 @@ header{
     margin-top: 8px;
     @include bordes(2px, solid, $colorOscuro, 7px);
 }
+
+@media screen and (max-width:576px) {
+    header{
+        nav{
+            .container-fluid{
+                img{
+                    width: 120px;
+                }
+            }
+        }
+    }    
+}
