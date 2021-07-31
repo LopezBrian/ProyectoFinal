@@ -221,6 +221,10 @@ header ul.navbar-nav {
   font-size: 1rem;
 }
 
+.productos__item h3 {
+  font-weight: bold;
+}
+
 .productos__imagen {
   width: 150px;
   height: 150px;
@@ -290,7 +294,7 @@ header ul.navbar-nav {
   color: #0B2845;
 }
 
-#imagen__carrito {
+.imagen__carrito {
   width: 30px;
 }
 
