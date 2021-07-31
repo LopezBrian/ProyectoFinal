@@ -3,22 +3,15 @@ header{
         background-color: #0B2845EB;
         .container-fluid{
             margin: 10px;
-            height: 130px;            
+            height: 130px;     
+            img{
+                width: 150px;
+            }       
         }
     }
     position: sticky;
     top: 0px;
     z-index: 999;
-
-}
-
-nav{
-    img{
-        width: 150px;
-    }
-}
-
-header{
     ul.navbar-nav{
         padding: 5px;
         margin: 5px;  
@@ -31,9 +24,8 @@ header{
 
 #navbarCollapse{
     background-color: $colorClaro;
-
+    @include bordes(2px, solid, $colorOscuro, 7px);
 }
-
 
 .header__login{
     padding: 3px;
@@ -41,19 +33,17 @@ header{
     flex-direction: column;
     height: 85px;
     justify-content: space-evenly;
-}
-
-.header__login a{
-    padding: 3px;
-    background-color: #BBE1FA;
-    color: #1b262c;
-    text-align: center;
-}
-
-.header__login a:hover{
-    padding: 3px;
-    background-color: #1b262c;
-    color: #BBE1FA;
+    a{
+        padding: 3px;
+        background-color: #BBE1FA;
+        color: #1b262c;
+        text-align: center;
+        :hover{
+            padding: 3px;
+            background-color: #1b262c;
+            color: #BBE1FA;
+        }
+    }
 }
 
 #header__boton{
@@ -62,19 +52,19 @@ header{
 }
 
 #header__boton button{
-    background: #BBE1FA;
+    background: $colorClaro;
     color: #1b262c;
     font-weight: bold;
     cursor: pointer;
     padding: 3px;
+    @include bordes(2px, solid, $colorOscuro, 7px);
+    &:hover{
+        background-color: $colorOscuro;
+        color: $colorClaro;
     }
-
-#header__boton button:hover{
-    background-color: #1b262c;
-    color: #BBE1FA;
 }
 
 #buscar{
     margin-top: 8px;
+    @include bordes(2px, solid, $colorOscuro, 7px);
 }
-

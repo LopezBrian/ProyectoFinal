@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sitio de venta de hardware para todo el pais y el exterior. Trabajamos con las mejores marcas">
+        <meta name="keywords" content="HARDWARE,VENTA,AMD,INTEL,PROCESADORES,COMPONENTES PC,COMPUTADORAS">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/styles.css">    
         <title>Inicio - Venta de Hardware Lopez</title>
@@ -17,20 +19,20 @@
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse justify-content-around border" id="navbarCollapse">
+                    <div class="navbar-collapse collapse justify-content-around" id="navbarCollapse">
                         <ul class="navbar-nav mr-auto"><!-- Barra de navegacion -->
                             <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-                            <li class="nav-item"><a href="productos.html" class="nav-link">Productos</a></li>
-                            <li class="nav-item"><a href="marcas.html" class="nav-link">Marcas</a></li>
-                            <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
-                            <li class="nav-item"><a href="ayuda.html" class="nav-link">Ayuda</a></li>
+                            <li class="nav-item"><a href="./pages/productos.html" class="nav-link">Productos</a></li>
+                            <li class="nav-item"><a href="./pages/marcas.html" class="nav-link">Marcas</a></li>
+                            <li class="nav-item"><a href="./pages/contacto.html" class="nav-link">Contacto</a></li>
+                            <li class="nav-item"><a href="./pages/ayuda.html" class="nav-link">Ayuda</a></li>
                         </ul>
                         <div class="row  justify-content-around align-items-center"><!-- Barra de busqueda -->
                             <div class="col-8">
-                                <input id="buscar" class="form-control me-2 border" type="text" placeholder="Buscar...">
+                                <input id="buscar" class="form-control me-2" type="text" placeholder="Buscar...">
                             </div>
                             <div class="col-4" id="header__boton">
-                                <button class="border" type="button" onclick="alert('En construccion, proximamente funcionando')">Buscar</button>
+                                <button type="button" onclick="alert('En construccion, proximamente funcionando')">Buscar</button>
                             </div>
                         </div>
                     </div>
@@ -38,6 +40,9 @@
             </nav>
         </header>
         <main><!-- Inicio MAIN -->
+            <div>
+                <h1>Bienvenidos a Venta de Hardware Lopez</h1>
+            </div>
             <div class="container-fluid row main__div mt-2 mb-2">
                 <div class="container-fluid col-lg-4 mx-auto mt-2 mb-2">
                     <section class="componentes"><!-- Primera seccion -->
@@ -65,7 +70,7 @@
                                 <h2 class="titulo__seccion">Productos recomendados</h2>
                             </div>                        
                             <div class="container">
-                                <div class="recomendados__box row justify-content-evenly">                    
+                                <div class="recomendados__box row">                    
                                     <div class="col-sm-12 col-md-6 col-lg-3 recomendados__item">
                                         <article>
                                             <a class="d-flex flex-column justify-content-around align-items-center" href="productos.html#ryzen5"><img class="img-fluid recomendados__imagen" src="images/ryzen5.webp" alt="Ryzen 5"><h3>AMD MICRO RYZEN 5 3500X 4.1GHz TURBO + AM4</h3></a>
@@ -87,8 +92,8 @@
                                         </article>                    
                                     </div>
                                 </div>
-                                <div class="container row">
-                                    <div class="col-lg-3 col-sm-12 col-md-6 recomendados__item">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6 col-lg-3 recomendados__item">
                                         <article>    
                                             <a class="d-flex flex-column justify-content-around align-items-center" href="productos.html#i7"><img class="img-fluid recomendados__imagen" src="images/i7.webp" alt="Intel i7"><h3>INTEL MICRO CORE I7 10700F 4.80 GHz TURBO COMET LAKE 10th GEN</h3></a>
                                         </article>
@@ -102,11 +107,7 @@
             <a id="arrow" href="#top"><img src="./images/up-arrow.png" alt="arrow"></a>
         </main>
         <footer><!-- Inicio FOOTER -->
-            <!-- Redes -->        
-            <div class="footer__links">
-                <h6><a href="legales.html">Términos legales</a></h6>
-                <h6><a href="politicas.html">Políticas de privacidad</a></h6>
-            </div>
+            <!-- Redes --> 
             <div class="footer__social">
                 <div>
                     <h5 class="footer__titulo" >Redes sociales</h5>
@@ -116,6 +117,10 @@
                     <a href="https://www.instagram.com" target="_blank"><h6><img class="footer__logo" src="./images/instagram.png" alt="Instagram"></h6></a>
                     <a href="https://www.twitter.com" target="_blank"><h6><img class="footer__logo" src="./images/twitter.png" alt="Twitter"></h6></a>
                 </div>
+            </div>
+            <div class="footer__links">
+                <h6><a href="legales.html">Términos legales</a></h6>
+                <h6><a href="politicas.html">Políticas de privacidad</a></h6>
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -15,9 +15,11 @@ footer{
 
 .footer__titulo{
     margin-top: 15px;
+    text-decoration: underline;
     color: #1b262c;
-    font-size: 1rem;
+    font-size: $fontSize;
     margin: 10px;
+    font-weight: bold;
 }
 
 .footer__links{
@@ -27,12 +29,16 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 2rem;
+    font-size: $fontSize*2;
+        h6{        
+        font-weight: bold;
+        }
 }
 
 .footer__links a:hover{
     text-decoration: underline;
-    text-decoration-thickness:1.5px;    
+    text-decoration-thickness:1.5px;
+    color: $colorOscuro;
 }
 
 .footer__social{    
