@@ -36,7 +36,6 @@ body a {
   position: fixed;
   top: 590px;
   right: 20px;
-  color: #0B2845;
 }
 
 header {
@@ -459,6 +458,10 @@ form label {
   margin: 5px;
 }
 
+form input {
+  font-weight: bold;
+}
+
 .contacto__opciones {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,13 +470,12 @@ form label {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 140px;
 }
 
 .contacto__botones {
@@ -484,23 +486,48 @@ form label {
   .contacto form {
     width: 90%;
   }
-  .contacto form textarea {
-    margin-bottom: 45px;
+  .contacto form input {
+    width: 100%;
+    margin: auto auto 5px auto;
   }
-  .contacto form div {
-    display: contents;
+  .contacto form select {
+    width: 40%;
+    margin: 5px auto;
+  }
+  .contacto form .contacto__opciones {
+    width: 100%;
+    height: 13rem;
+  }
+  .contacto form .contacto__botones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .contacto form .contacto__botones input {
+    width: 40%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
   .contacto form {
     width: 90%;
   }
+  .contacto form .contacto__botones input {
+    width: 100%;
+    margin: 2px auto;
+  }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
   .contacto form {
     width: 90%;
+  }
+  .contacto form input {
+    width: 100px;
   }
 }
 
