@@ -3,7 +3,7 @@ header{
         background-color: #0B2845EB;
         .container-fluid{
             margin: 10px;
-            height: 130px;     
+            height: 110px;     
             img{
                 width: 150px;
             }       
@@ -23,7 +23,7 @@ header{
 }
 
 #navbarCollapse{
-    background-color: $colorClaro;
+    background-color: #BBE1FA;
     @include bordes(2px, solid, $colorOscuro, 7px);
 }
 

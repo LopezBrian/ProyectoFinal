@@ -34,8 +34,8 @@ body a {
 #arrow img {
   width: 55px;
   position: fixed;
-  top: 590px;
-  right: 20px;
+  top: 620px;
+  right: 55px;
 }
 
 header {
@@ -51,7 +51,7 @@ header nav {
 
 header nav .container-fluid {
   margin: 10px;
-  height: 130px;
+  height: 110px;
 }
 
 header nav .container-fluid img {
@@ -68,7 +68,7 @@ header ul.navbar-nav {
 }
 
 #navbarCollapse {
-  background-color: #BBE1FAC4;
+  background-color: #BBE1FA;
   border: 2px solid #0B2845;
   border-radius: 7px;
 }
@@ -125,6 +125,12 @@ header ul.navbar-nav {
   margin-top: 8px;
   border: 2px solid #0B2845;
   border-radius: 7px;
+}
+
+@media screen and (max-width: 576px) {
+  header nav .container-fluid img {
+    width: 120px;
+  }
 }
 
 .componentes ul li:hover {
@@ -492,7 +498,7 @@ form input {
   }
   .contacto form select {
     width: 40%;
-    margin: 5px auto;
+    margin: 5px 30%;
   }
   .contacto form .contacto__opciones {
     width: 100%;
